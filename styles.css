@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.button {
+    color: #FFEB3B;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.header-content img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.header-content a.button {
+    color: #FFEB3B;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#about, #quote, .content-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1E1E1E;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#services, #works, #blog, #story {
+    background-color: #222;
+}
+
+.service-cards, .works-cards, .blog-posts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card, .works-card, .blog-post {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.service-card h3, .works-card h3, .blog-post h3 {
+    color: #FFEB3B;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+
+article h2 {
+    color: #FFEB3B;
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 20px;
+}
